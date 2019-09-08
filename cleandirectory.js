@@ -10,8 +10,8 @@ class FilesProcessor {
       '.localized',
     ]
     this.replaceRules = [
-      [/ebook/gi, ''], // Remove trailing spaces
-      [/book/gi, ''], // Remove trailing spaces
+      [/ebook/gi, ''], // Remove the ebook word
+      [/book/gi, ''], // Remove the book word
       [/_/gi, ' '],   // Remove underscores
       [/-/gi, ' '],   // Remove dashes
       [/\s+/gi, ' '], // Remove trailing spaces
